@@ -20,4 +20,7 @@ lunes 16 marzo 2026
 
 - las herramientas que utilizaremos serán opensource
 
+- instalar biblioteca de arduino mqtt, arduino r4 y arduinographics
+
+- cuando cambian el primer numero de 1.2.3 cambian muchas cosas y se pueden romper también, si cambian el segundo 1.3.3 cambian cosas de adentro pero lo principal se mantiene
 
