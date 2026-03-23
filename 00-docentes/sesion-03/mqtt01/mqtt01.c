@@ -18,7 +18,62 @@
 // configuracion mqtt
 #define MQTT_BROKER "10.174.124.28"
 #define MQTT_PORT 1883
-#define MQTT_TOPIC "dis9079/20260323/led"
+
+
+
+const char *grupos[] = {
+    "aaron",
+    "grupo-01",
+    "grupo-02",
+    "grupo-03",
+    "grupo-04",
+    "grupo-05",
+    "grupo-06",
+    "grupo-07",
+    "grupo-08",
+    "grupo-09",
+    "grupo-10",
+    "grupo-11",
+    "mateo",
+};
+
+const char *arduinos[] = {
+    "arduinoAaron",
+    "arduino01",
+    "arduino02",
+    "arduino03",
+    "arduino04",
+    "arduino05",
+    "arduino06",
+    "arduino07",
+    "arduino08",
+    "arduino09",
+    "arduino10",
+    "arduino11",
+    "arduinoMateo",
+};
+
+const char *raspicos[] = {
+    "raspicoAaron",
+    "raspico01",
+    "raspico02",
+    "raspico03",
+    "raspico04",
+    "raspico05",
+    "raspico06",
+    "raspico07",
+    "raspico08",
+    "raspico09",
+    "raspico10",
+    "raspico11",
+    "raspicoMateo",
+};
+
+// cambiar por tu numero de grupo
+// yo soy 0, mateo es 12
+int numeroDeGrupo = 1;
+
+string mqttTopic = "dis9079/20260323/grupo" + String(numeroDeGrupo);
 
 // declarar instancia de cliente mqtt
 mqtt_client_t *cliente;
@@ -64,9 +119,9 @@ static void mqtt_connection_cb(mqtt_client_t *client, void *arg, mqtt_connection
 
         // subscribe to topic
         mqtt_set_inpub_callback(client, mqtt_incoming_publish_cb, mqtt_incoming_data_cb, NULL);
-        mqtt_subscribe(client, MQTT_TOPIC, 0, NULL, NULL);
+        mqtt_subscribe(client, mqttTopic.c_str(), 0, NULL, NULL);
 
-        printf("Suscrito a: %s\n", MQTT_TOPIC);
+        printf("Suscrito a: %s\n", mqttTopic.c_str());
     }
     else
     {
