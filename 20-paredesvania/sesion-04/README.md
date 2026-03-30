@@ -7,3 +7,6 @@
 Wifi es como una carretera, le puedes poner internet, tambien puedes no ponerle ;).
 
 Ya no tenemos que tener una IP distinta cada uno, sino que será siempre la misma IP.
+
+**sudo:** Super usuario hacer _**(no usar)**_
+
