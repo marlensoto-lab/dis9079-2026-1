@@ -40,6 +40,6 @@ tres párrafos
 
 lista de enlaces, libros, clases, tutoriales, etc
 
-* uno
+* <https://mkelectronica.com/aprende-a-utilizar-la-plataforma-adafruit-io-para-tus-dispositivos-iot-parte-1/>, en donde se explica cómo funciona la plataforma de Adafruit IO incluyendo imagenes para que sea más fácil de entender.
 * dos
 * etc
