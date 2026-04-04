@@ -38,3 +38,6 @@ rellenar en el mismo orden que los integrantes del grupo
 [persona-03.md](./persona-03.md)
 
 ## bibliografía
+
+* <https://learn.adafruit.com/series/adafruit-io-basics>
+* <https://github.com/adafruit/Adafruit_IO_Arduino>
