@@ -59,6 +59,23 @@ La actualización realmente se toma su tiempo, ha pasado una hora desde que empe
 
 Okay, ha pasado un poco más de hora y media y aún no se termina de actualizar, terminaré esta misión mañana.
 
+Mis placas están en coma, en recuperación con el doctor aarón.
+
+Por mientras subí el código ahora con un arduino mañoso que funciona cuando quiere y no tiene la acrtualización, pero ahora me apareció mas info en el monitor serial.
+
+![yuju](./imagenes/masquepuntos.png)
+
+Por otro lado, cami pudo enviar desde su compu, así que perfect, ahora queremos modificar el código para que envíe algo más que números. seguimos trabajando.
+
+Queremos como grupo, enviar un sonido desde un arduino conectado a un potenciómetro, y que este potenciómetro controle el volumen de el sonido que sonará en el otro arduino que recibirá.
+El arduino que recibe tendrá conectado un altavoz, por el que sonará el sonido enviado y en la pantalla de leds se verá una barra de leds que muestre el volumen de manera gráfica.
+
+logramos hacer que el potenciómetro funcionara!
+
+![pot](./imagenes/pot.png)
+![pot](./imagenes/potfeed.png)
+![pot](./imagenes/potconexión.heic)
+
 ## sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
 
 ## Rafael Lozano-Hemmer
