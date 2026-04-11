@@ -18,6 +18,8 @@ Cuando ya teníamos claro qué queríamos hacer, copiamos el código de config.h
 
 Para eso, conectamos un led a una protoboard e hicimos un circuito usando un Arduino UNO R4 WiFi. Conectamos el GND de la placa al negativo de la protoboard y el pin de 3.3V al positivo, luego conectamos la pata positiva del led al positivo de la protoboard y la pata negativa al negativo de la protoboard.
 
+![circuito](./imagenes/ilustracion.jpg)
+
 El Arduino estaba conectado al computador y las instrucciones de ON y OFF se enviaban desde el iPad a través del dashboard que creamos en Adafruit.
 
 El led encendía y el código se recibía, pero al principio no logramos controlarlo porque no respondía a la instrucción de ON y OFF.
