@@ -12,6 +12,7 @@ con mi user de github y luego un guion
 
 ### codigo para enviar datos
 
+```cpp
 // reemplazar por las credenciales de aaron
 // o por las de tu cuenta
 #define IO_USERNAME  "bla"
@@ -44,3 +45,5 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS, SPIWIFI_SS,
 #else
 AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 #endif
+```
+```
