@@ -17,8 +17,8 @@ Aprendizaje sobre la incorporación de imágenes en GitHub, incluyendo cómo sub
 ### Materia ###
 ¿Como se utiliza usamos capacitancia?
 
-Instalar biblioteca de :Arduino capacitive touch
-<img width="1865" height="896" alt="Biblioteca_arduino capacitivetouch" src="https://github.com/user-attachments/assets/1c3b10c5-fef8-4f00-8f1f-53f669c6c0a0" />
+Instalar biblioteca de : Arduino capacitive touch
+![arduino](imagenes/
 
 
 
