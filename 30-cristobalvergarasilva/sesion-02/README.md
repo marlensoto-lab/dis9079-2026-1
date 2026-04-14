@@ -2,44 +2,50 @@
 
 lunes 16 marzo 2026
 
- grupo solemne 1: Josefa, Debora, Cristóbal
+Grupo solemne 1: Josefa, Debora, Cristóbal.
 
-Esta clase pasamos hartos conceptos clave de la programación
+Esta clase pasamos hartos conceptos clave de la programación.
 
 ### C++
-es el lenguaje que utiliza Arduino, es muy usado y conocido
+>Es el lenguaje que utiliza Arduino, es muy usado y conocido.
 
-### void setup() {
+### Void setup() {
 
-Esta función se ejecuta una sola vez al inicio del programa. Se utiliza para realizar la configuración inicial del dispositivo,
+>Esta función se ejecuta una sola vez al inicio del programa. Se utiliza para realizar la configuración inicial del dispositivo.
 
-### void loop() {
+### Void loop() {
 
-Esta función se ejecuta de forma cíclica una vez que se ha completado la función setup, se repite continuamente mientras el dispositivo esté encendido
+>Esta función se ejecuta de forma cíclica una vez que se ha completado la función setup, se repite continuamente mientras el dispositivo esté encendido.
 
 ### Protocolo mqtt
-MQTT es un protocolo que se utiliza para la comunicación de un equipo a otro. Los dispositivos IoT utilizan MQTT para la transmisión de datos, ya que resulta fácil de implementar y puede comunicar datos de manera eficiente. MQTT admite la mensajería entre dispositivos a la nube y la nube al dispositivo, además sus mensajes son livianos.
+
+>MQTT es un protocolo que se utiliza para la comunicación de un equipo a otro. Los dispositivos IoT utilizan MQTT para la transmisión de datos, ya que resulta fácil de implementar y puede comunicar datos de manera eficiente. MQTT admite la mensajería entre dispositivos a la nube y la nube al dispositivo, además sus mensajes son livianos.
 
 ### Mosquitto
-Es un Broker de comunicación de código abierto, proporciona un método para enviar mensajes mediante publicación/suscripción
+
+>Es un Broker de comunicación de código abierto, proporciona un método para enviar mensajes mediante publicación/suscripción.
 
 ### Subscribir y publicar
-La pestaña publicar lanza un mensaje con un topic, sin tener claro a donde llega y subscribir publica un mensaje y ve en qué dispositivos reciben qué, según a qué topic están suscritos. 
+
+>La pestaña publicar lanza un mensaje con un topic, sin tener claro a donde llega y subscribir publica un mensaje y ve en qué dispositivos reciben qué, según a qué topic están suscritos. 
 
 ### Topic
-Dirección a la que se envía el mensaje .../.../...
+>Dirección a la que se envía el mensaje .../.../...
 
 ### Broker
-Servidor que recibe todos los mensajes y los reparte a quien corresponde.
 
-"Broker es un intermediario, algo que negocia, entonces Mosquitto es algo que sin cables genera un Broker de MQTT"
+>Servidor que recibe todos los mensajes y los reparte a quien corresponde.
 
--Para conexiones lejanas se necesita dar indicaciones al router.
+>"Broker es un intermediario, algo que negocia, entonces Mosquitto es algo que sin cables genera un Broker de MQTT".
 
-### router
-conecta una red con internet y se encarga de que los dispositivos que estén adentro se puedan comunicar entre sí.
+>Para conexiones lejanas se necesita dar indicaciones al router.
+
+### Router
+
+>Conecta una red con internet y se encarga de que los dispositivos que estén adentro se puedan comunicar entre sí.
 
 ### IP
-donde vive tu computador en el internet, es un lugar al que los datos saben donde llegar.
+
+>Donde vive tu computador en el internet, es un lugar al que los datos saben donde llegar.
 
 ### primera solemne, conectar un Arduino y un Raspberrypie
