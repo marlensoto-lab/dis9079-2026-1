@@ -74,7 +74,7 @@ Cuando el dispositivo detecta una posible amenaza o invasión del espacio person
 
 #### HeartBeatDress
 
-falta foto
+![heartbeatdress](./imagenes/heartbeatdress.jpg)
 
 Utiliza sensores integrados, tecnología robótica, sonido y luz para reaccionar al ritmo de los latidos del corazón de quien lo lleva puesto.
 
@@ -85,6 +85,14 @@ El HeartBeatDress también aparece en el último videoclip de la artista estadou
 <https://www.youtube.com/watch?v=_tuE52TtHWY>
 
 #### Smoke dress
+
+El vestido funciona como una cortina de humo portátil. Mediante tecnologías integradas, la prenda detecta la proximidad de otra persona y crea un velo de humo alrededor del usuario para camuflarlo. 
+
+![smoke dress](./imagenes/smoke-dress.jpg)
+
+La tecnología funciona mediante un microcontrolador y un sistema de sensores personalizados. Este sistema calcula datos sobre el espacio personal del usuario y los envía al generador de humo situado entre los omóplatos
+
+<https://www.youtube.com/watch?v=G-0lTP90hVc>
 
 ### Bibliografia
 
