@@ -15,7 +15,7 @@ Se revisaron protocolos fundamentales para la comunicación entre dispositivos:
 
 MQTT funciona mediante un sistema de publicación y suscripción, permitiendo que múltiples dispositivos reciban información simultáneamente.
 
-Interacciones inalámbricas
++ Interacciones inalámbricas
 
 El curso aborda sistemas donde dispositivos se comunican en red en tiempo real, dentro del contexto de IoT.
 
