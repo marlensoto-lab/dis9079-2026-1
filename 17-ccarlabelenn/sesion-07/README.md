@@ -11,3 +11,4 @@ lunes 20 abril 2026
 + motor: servos son para hacer cosas muy sutiles, nos permiten comportamientos extraños. tiene tres terminales, la amarilla indica lo que queremos que haga
 
 - tinkercad!! cad: diseño asistido por computadoras 
+![imagenes](./imagenes/tinkercad.jpg)
