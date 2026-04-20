@@ -22,6 +22,8 @@ El kit utilizado incluye los siguientes componentes:
 - Los puntos en una misma fila están eléctricamente conectados.
 - Las conexiones no son permanentes, lo que permite modificar el circuito fácilmente.
 
+![Protoboard](imagenes/protoboard.png)
+
 ### Polaridad
 - **Rojo** → Positivo (+)
 - **Verde o negro** → Tierra / Negativo (−)
