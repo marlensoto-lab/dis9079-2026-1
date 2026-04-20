@@ -58,7 +58,62 @@ void loop()
 
 Luego lo hicimos en análogo. Conectamos el arduino con el pote y funcionó :)
 
-<img src="./imagenes/arduino_pote.png" alt="tinkercad" width="600">
+<img src="./imagenes/arduino_pote.png" alt="pote" width="600">
+
+- **El servo solo necesita saber el ángulo que le pondremos.**
+- Colocamos el servomotor y cuando se mueve el potenciómetro, se mueve a la par el servomotor
+
+```cpp
+// ejemplo lectura potenciometro
+
+// queremos que nuestro Arduino
+// sea capaz de leer un potenciometro
+// conectado a la entrada A0.
 
 
+#include <Servo.h>
 
+
+Servo miServo;
+
+int lectura = 0;
+int angulo = 0;
+
+
+void setup()
+{
+  pinMode(9, OUTPUT);
+  Serial.begin(9600);
+  // en que patita esta conectado el servo
+  // conectemos a patita 9 digital
+  miServo.attach(9);
+  
+}
+
+void loop()
+{
+  // leer
+  lectura = analogRead(A0);
+  
+  // imprimir en consola
+  Serial.println(lectura);
+  
+  
+  // toma el valor de lectura
+  // que va originalmente entre 0 y 1023
+  // y mapealo al rango 0 a 180
+  angulo = map(lectura, 0, 1023, 0, 180);
+    
+  // pidele por favor al servo
+  // que vaya a ese angulo
+  miServo.write(angulo);
+  
+  // servo descansa un poquito
+  // 15 milisegundos
+  // la vida es dura
+  delay(15);
+    
+}
+```
+
+<img src="./imagenes/arduino_servo.png" alt="servo" width="600">
