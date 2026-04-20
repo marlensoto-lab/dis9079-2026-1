@@ -208,8 +208,12 @@ void loop() {
 
 - buscar cómo reemplazar el potenciómetro en este circuito por el LDR
 
+- en el final de la clase conectamos el arduino al wifi de mateo y funcionó, apareció que se conectó y enviaba datos con el potenciómetro. El único problema de momento es que a mateo no le aparece nuestro feed de grupo 10 en adafruit
+
 **actualización 17:44**
 
 - funcionó ahora sí, fui al lid con mateo y aarón , probamos conectarnos nuevamente y ahora nos detectó en los feeds, potenciómetro grupo 10!!!
+
+- observaciones: puede que no nos funcionara en la sala porque estábamos al fondo de la sala y porque había mucha gente, dispositivos, las cosas se crashean igual, para la otra sentarse adelante, nunca más atrás
 
 
