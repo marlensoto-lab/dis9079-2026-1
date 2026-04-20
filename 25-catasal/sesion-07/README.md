@@ -26,5 +26,8 @@ analogo A0 a C9
 
 https://github.com/user-attachments/assets/62a4e77d-af52-41db-9803-5122433b0dae
 
+<img width="1872" height="875" alt="adafruit" src="https://github.com/user-attachments/assets/a98087f5-1207-4dfe-b631-43262d6f2cce" />
+
+
 
 
