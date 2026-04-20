@@ -214,6 +214,8 @@ Genera oscilación continua tipo vibrato
 
 ## Observación personal — Theremin
 
+![Theremin](./imagenes/etherwave_website_13)
+
 El Theremin surge como un referente que no solo aparece en la clase, sino también como resultado de una búsqueda personal adicional en torno a formas de interacción no tradicionales. Me interesa particularmente porque rompe completamente con la lógica del contacto físico: no hay botones, no hay superficie, solo un campo invisible que responde al cuerpo. Esto lo convierte en una interfaz extremadamente sensible, donde el gesto, la distancia y la precisión corporal pasan a ser el lenguaje principal.
 
 Desde esa exploración, el Theremin no lo veo solo como un instrumento musical, sino como un sistema de relación entre el cuerpo y el espacio. La mano deja de “tocar” y pasa a “habitar” un rango de influencia, lo que abre posibilidades para pensar en objetos o dispositivos que reaccionen sin necesidad de contacto directo. Esto desplaza la interacción hacia algo más intuitivo, pero también más inestable, donde pequeñas variaciones generan grandes cambios.
