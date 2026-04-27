@@ -28,7 +28,9 @@ Programa: https://circuitpython.org/
 
  transformarlo a disco duro
 
- IMAGEN
+
+ <img width="1297" height="579" alt="CircuitPython 2" src="https://github.com/user-attachments/assets/212f27a9-02e1-43b8-a5b3-65d0528a74fc" />
+
  
 - Entrar a circuitpython.
   
