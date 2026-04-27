@@ -86,6 +86,8 @@ ahora enviaremos el potenciómetro a adafruit
 
 - code.py es el principal, aquí es donde corre el código
 
+**17:28 agregar corrección del pote, parece que el nuestro estaba bien pero igual salió olor a quemado, los potes al manejarse entre dos extremos pueden generar cortocircuito, es una jugada arriesgada**
+
 
 
 
