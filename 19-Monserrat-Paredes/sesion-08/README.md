@@ -44,4 +44,15 @@ Programa: https://circuitpython.org/
   
 - se abre la carpeta y ya esta instalado.
 
+
+  Patitas Raspberry
+
+<img width="828" height="544" alt="Raspberry" src="https://github.com/user-attachments/assets/653604ca-3956-454d-9919-061ab3d81a52" />
+
+
+Comenzamos de forma analoga agregar el potenciometro y las conexiones
+
+<img width="581" height="680" alt="Conexion" src="https://github.com/user-attachments/assets/17c2866d-5483-449e-b91a-191e3477fcda" />
+
+  Siempre hay que grabar
   
