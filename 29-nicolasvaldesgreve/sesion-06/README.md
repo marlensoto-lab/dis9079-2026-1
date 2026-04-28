@@ -4,6 +4,8 @@ lunes 13 abril 2026
 
 # Apuntes 13/04
 
+### Sensor Capacitivo
+
 Arduino tiene un sensor capacitivo de tacto, lo que significa que es capaz de identificar si hay cambios en la capacitancia debido a la fuerza o a la ausencia de ésta en el instrumento que lo detecta!! por lo que Aarón nos va a enseñar a hacerlo reaccionar a nuestro contacto o cercanía, ya que éste también puede detectar si estás cerca a pesar de que no lo toques directamente.
 
 Para hacer el ejercicio, utilizaremos el código que nos entrega de ejemplo la página de Arduino para probar el sensor, pero ésta vez Aarón nos explicará lo que significa cada línea con comentarios dentro del código, por lo que quedó así:
@@ -102,3 +104,5 @@ void loop() {
 ```
 
 Luego de entender lo que hace cada línea de manera poética, conectamos un cable dupont al pin D0 de la placa Arduino UNO R4 WiFi, subimos el código y la placa emepzó a recibir información sobre nuestro contacto con el cable dupont!! de hecho, hasta cuando tocabas la cubierta plástica lo detectaba, pero claramente no al mismo nivel que cuando tocábamos la punta metálica del dupont.
+
+![Sensor funcionando](./imagenes/sensor-capacitivo.gif)
