@@ -88,7 +88,13 @@ ahora enviaremos el potenciómetro a adafruit
 
 ¿cómo conectamos el potenciómetro a la raspi en la proto?
 
+- seguimos el siguiente pinout de la raspi 2w que nos compartió Aarón
+
+![raspiPinout](./imagenes/pinoutRaspi2w.JPG)
+
 ![potenciometro](./imagenes/potenciometroRaspi.jpg)
+
+- queda conectado de esta forma
 
 - descubrimos que los GND en la placa de raspi son cuadrados, todos los demás pines son círculos, detallitos
 
